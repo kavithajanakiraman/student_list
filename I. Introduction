@@ -1,0 +1,555 @@
+I. Introduction:
+=================
+0. Introduce yourself.
+1. Tell me about Python?
+2. Why Python is so popular now a days?
+3. Features of Python
+4. Advantages and Disadvantages of Python
+5. Interpreted vs Compiled time programming languages. Explain in detail
+6. .py vs .pyc files
+7. How compilation will happen internally. Explain in detail
+8. Why Python is Dynamically typed programming Language. Explain
+9. Python is Platform independent.Explain
+10.Different ways to write python program.
+   Interactive, IDLE, CommandPrompt, IDE
+   Advantages, Disadvantages
+11.sourcecode vs bytecode
+12.Register instruction set
+13.High Level vs Low level programming Language
+14.Python architecture
+15.Explain Garbage Collection mechanism in detail.
+
+0. Introduce yourself:
+======================
+    I'm Kavitha Janakiraman. I would like to thankyou for the opportunity to introduce myself.
+    Im basically from Tamilnadu but residing in Bangalore.
+    I have completed my bachelor of engineering in computer science.
+    I have 4 years of experience in healthcare industry as a process associate.
+    We are a family of three. My husband is a software engineer and I have one daughter.
+    As a positive thinker I can motivate myself towards the work and life.
+    I used to learn from my mistakes and also from others mistakes as well.
+    These qualities makes me to be a strong individual to be in any part of my career and personal life.
+
+
+
+1. Tell me about Python?
+========================
+    
+    Python is a high-level programming language known for its simplicity and readability. 
+    It was created by Guido van Rossum and first released in 1991. 
+    Python emphasizes code readability and provides a clean syntax that allows programmers to express concepts in fewer lines of code compared to other programming languages.
+    Python is a versatile language used in various domains such as web development, data analysis, artificial intelligence, scientific computing, automation, and more. It offers a wide range of libraries and frameworks that make it suitable for diverse tasks.
+
+2. Why Python is so popular now a days?
+=======================================
+
+    1) Simplicity and Readability: Python has a simple and clean syntax that makes it easy to read and understand. This simplicity reduces the learning curve for beginners and allows developers to express concepts in a concise and readable manner. Python's focus on readability contributes to its popularity as it promotes maintainable and collaborative code.
+
+    2) Versatility and Flexibility: Python is a general-purpose programming language that can be used for a wide range of applications. It provides extensive libraries and frameworks for web development (e.g., Django, Flask), data analysis (e.g., NumPy, pandas), scientific computing (e.g., SciPy), machine learning (e.g., TensorFlow, PyTorch), and more. This versatility makes Python attractive for developers working in different domains.
+
+    3) Data Science and Machine Learning: Python has become the language of choice for data science and machine learning. Its rich ecosystem of libraries, such as NumPy, pandas, scikit-learn, and TensorFlow, offers powerful tools for data manipulation, analysis, and building machine learning models. Python's simplicity and ease of integration with other technologies have made it a popular language for data scientists and machine learning practitioners.
+
+    4) Community and Support: Python has a large and active community of developers who contribute to its growth and provide support. The Python community maintains a vast collection of open-source libraries, frameworks, and resources, which accelerates development and allows developers to leverage existing solutions. The community-driven nature of Python ensures continuous improvement, bug fixes, and regular updates.
+
+    5) Adoption by Major Companies: Python is widely adopted by prominent companies such as Google, Facebook, Netflix, Instagram, Dropbox, and many others. Its versatility and ease of integration with other technologies make it a preferred language for building scalable web applications, data processing pipelines, automation scripts, and more. The industry's recognition and usage of Python have further fueled its popularity.
+
+    6) Education and Learning: Python is often recommended as a first programming language for beginners due to its simplicity and readability. Many educational institutions and coding bootcamps teach Python as an introductory language. This has led to an increasing number of developers starting their coding journey with Python, which in turn contributes to its popularity.
+
+    7) Community-driven Development: Python's development process is transparent and community-driven. The Python Software Foundation (PSF) oversees the language's development, ensuring stability, and managing updates. The collaborative and inclusive nature of Python's development process fosters innovation, addresses community needs, and attracts more developers.
+
+3. Features of Python
+=====================
+
+    1) Readability: Python's syntax is designed to be easy to read and understand, emphasizing code readability. It uses indentation and whitespace to define code blocks, eliminating the need for explicit braces or delimiters. This readability makes Python code more accessible and maintainable.
+
+    2) Simplicity: Python promotes a minimalist and straightforward approach to programming. Its syntax is clean and concise, reducing the number of lines required to express concepts compared to other languages. Python's simplicity makes it an ideal choice for beginners and enables rapid prototyping and development.
+
+    3) Dynamic Typing: Python is dynamically typed, meaning you don't need to explicitly declare variable types. Variables are created and assigned values on the fly, and their types can change during runtime. This flexibility allows for faster development cycles and makes Python more forgiving when dealing with data types.
+
+    4) Interpreted: Python is an interpreted language, which means that code is executed line by line without a separate compilation step. This interactive nature allows for quick prototyping and experimentation. Python interpreters are available on multiple platforms, making it highly portable.
+
+    5) Object-Oriented Programming (OOP): Python supports object-oriented programming paradigms. It allows the creation and manipulation of classes and objects, encapsulating data and behavior within them. Python's OOP features, including inheritance, polymorphism, and encapsulation, enable developers to write modular and reusable code.
+
+    6) Extensive Standard Library: Python comes with a rich standard library that provides a wide range of modules and packages for common programming tasks. The standard library includes modules for file I/O, string manipulation, networking, data serialization, regular expressions, and much more. This extensive library reduces the need for external dependencies and simplifies development.
+
+    7) Large Ecosystem of Third-Party Libraries: Python has a vast ecosystem of third-party libraries and frameworks contributed by the Python community. These libraries extend Python's capabilities and enable developers to leverage pre-existing solutions. Popular libraries include NumPy, pandas, Matplotlib, scikit-learn, TensorFlow, Django, Flask, and many more.
+
+    8) Cross-Platform Compatibility: Python is available on major operating systems, including Windows, macOS, and various Unix-like systems. This cross-platform compatibility allows developers to write code on one platform and run it on another with minimal modifications.
+
+    9) High-level Language: Python is a high-level language that abstracts away low-level details, providing built-in data structures and memory management. This abstraction allows developers to focus on problem-solving rather than managing low-level details, enhancing productivity.
+
+    10) Community and Support: Python has a large and active community of developers who contribute to its growth, development, and support. The Python community offers extensive documentation, tutorials, forums, and online resources, making it easier for developers to learn, troubleshoot, and collaborate.
+
+    
+
+4. Advantages and Disadvantages of Python
+==========================================
+
+    Advantages of Python:
+    =====================
+
+      1) Readability and Simplicity: Python has a clean and readable syntax that is easy to understand, making it ideal for beginners and promoting code maintainability.
+
+      2) Large Standard Library and Ecosystem: Python comes with a comprehensive standard library that provides ready-to-use modules and packages for various tasks. Additionally, Python has a vast ecosystem of third-party libraries and frameworks contributed by the community, expanding its capabilities for different domains and reducing development time.
+
+      3) Versatility: Python is a versatile language that can be used for web development, data analysis, scientific computing, machine learning, automation, scripting, and more. It adapts well to diverse tasks and can be seamlessly integrated with other languages and technologies.
+
+      4) Cross-Platform Compatibility: Python runs on major operating systems, allowing code written on one platform to be executed on another with minimal modifications. This cross-platform compatibility is beneficial for developers working in different environments.
+
+      5) Productivity and Rapid Development: Python's simplicity and high-level abstractions enable developers to write code more quickly and with fewer lines compared to other languages. The language's extensive standard library and vast ecosystem of third-party packages further accelerate development, resulting in increased productivity.
+
+      6) Community and Support: Python has a large and active community of developers who contribute to its growth and provide support. The Python community maintains robust documentation, offers online resources, and promotes collaborative development, making it easier to learn, share knowledge, and find solutions to problems.
+
+    Disadvantages of Python:
+    ========================
+
+      1) Execution Speed: Python is an interpreted language, which can be slower compared to compiled languages like C or Java. While Python offers good performance for most applications, it may not be the best choice for computationally intensive tasks or real-time systems.
+
+      2) Global Interpreter Lock (GIL): The Global Interpreter Lock in Python restricts multi-threading, limiting the parallel execution of threads within a single Python process. This can impact performance when dealing with CPU-bound tasks that require significant parallel processing.
+
+      3) Memory Consumption: Python's high-level abstractions and dynamic typing can result in relatively higher memory consumption compared to lower-level languages. This can be a concern when dealing with memory-constrained environments or applications with large datasets.
+
+      4) Mobile and Browser Support: Python is not as widely supported in mobile app development or browser-based applications compared to languages like Java, Swift, or JavaScript. While frameworks like Kivy and BeeWare enable Python app development, the ecosystem is still less mature compared to other languages.
+
+      5) Packaging and Distribution: Python's packaging and distribution ecosystem, while improving, can be complex and challenging at times. Managing dependencies, creating standalone executables, or packaging applications for distribution can involve additional effort compared to more streamlined processes in other languages.
+
+   It's important to note that the advantages and disadvantages of Python may vary depending on the specific use case and requirements of a project. Python's strengths in readability, versatility, and community support make it a popular choice for many developers and organizations, despite its limitations in certain areas.
+
+5. Interpreted vs Compiled time programming languages. Explain in detail
+========================================================================
+
+     Interpreted and compiled are two different approaches to translating and executing programming code. Here's a detailed explanation of interpreted and compiled programming languages:
+
+     Interpreted Programming Languages:
+     ==================================
+         In an interpreted programming language, the code is executed line by line by an interpreter without the need for a separate compilation step. The interpreter reads and executes each line of code at runtime.
+
+         1) Process of Interpretation: The interpreter reads one line of code at a time, translates it into machine code or bytecode, and executes it immediately. It continues this process until it reaches the end of the program or encounters an error.
+
+         2) Immediate Feedback: Since interpreted languages execute code line by line, they provide immediate feedback, making them suitable for rapid prototyping and debugging. It allows developers to write and test code interactively.
+
+         3) Portability: Interpreted languages tend to be more portable as the interpreter can be implemented on different platforms, allowing the same code to run on multiple systems without modification.
+
+         4) Dynamic Typing: Interpreted languages often support dynamic typing, where variables are not explicitly declared with types. The interpreter determines the type of a variable during runtime, providing flexibility but potentially sacrificing some performance.
+
+         5) Examples: Python, JavaScript, Ruby, PHP, Perl are popular interpreted programming languages.
+
+      Compiled Programming Languages:
+      ===============================
+         In a compiled programming language, the source code is translated into machine code or bytecode before execution. The compilation process involves converting the entire program into an executable form, resulting in a standalone binary file.
+
+         1) Compilation Process: The compilation process typically consists of several stages, including lexical analysis, syntax analysis, semantic analysis, optimization, and code generation. The result is an executable file that can be run directly on the target platform.
+
+         2) Performance: Compiled languages often offer better performance compared to interpreted languages. The code is pre-translated into machine code, optimized, and directly executed by the computer's processor, resulting in faster execution times.
+
+         3) Static Typing: Compiled languages often enforce static typing, where variables must be explicitly declared with their types before they can be used. This allows for more efficient memory allocation and can help catch type-related errors at compile-time.
+
+         4) Portability: Compiled languages generally require recompilation or recompilation tools to run the code on different platforms or architectures. The compiled binary may not be directly portable to other systems without adaptation.
+
+         5) Examples: C, C++, Java, Go, Rust are common examples of compiled programming languages.
+
+
+
+6. .py vs .pyc files
+=====================
+
+      .py Files:
+      ===========
+
+        1) .py files are Python source code files that contain human-readable code written in the Python programming language.
+        2)These files are written by developers and are editable using any text editor or integrated development environment (IDE).
+        3).py files are the primary files used for writing, modifying, and maintaining Python code.
+        4)When executing a .py file, it is interpreted or compiled at runtime by the Python interpreter.
+
+      .pyc Files:
+      ============
+
+        1).pyc files are compiled bytecode files generated by the Python interpreter from .py source files.
+        2)Bytecode is a lower-level representation of the original Python source code that can be executed more efficiently by the interpreter.
+        3)The purpose of creating .pyc files is to speed up the execution of Python code by avoiding the need for recompilation of the source code each time it is run.
+        4).pyc files are platform-specific and contain the compiled bytecode that corresponds to a specific version of the Python interpreter.
+        5)When a .py file is executed, if a corresponding .pyc file exists and is up to date (i.e., no changes were made to the source code since the .pyc file was generated), the interpreter will use the precompiled .pyc file for faster execution.
+
+7. How compilation will happen internally. Explain in detail
+=============================================================
+
+  Compilation is the process of translating source code written in a high-level programming language into machine code that can be executed directly by the computer's processor. The compilation process involves several stages, as outlined below:
+
+   Lexical Analysis:
+   =================
+
+   The first stage is lexical analysis, where the source code is broken down into tokens. A lexer (also known as a tokenizer or scanner) scans the code character by character and groups them into meaningful units, such as keywords, identifiers, operators, and literals.
+   The lexer removes any unnecessary whitespace or comments and produces a stream of tokens as output.
+   Syntax Analysis:
+   ================
+
+   In the syntax analysis stage, the tokens generated from the lexical analysis are processed to build a parse tree or an abstract syntax tree (AST). The parse tree represents the grammatical structure of the code according to the language's syntax rules.
+   This step involves applying a set of grammar rules defined by the language's syntax to ensure that the code is well-formed. If any syntax errors are encountered, compilation typically halts with an error message.
+   Semantic Analysis:
+   ===================
+
+   Semantic analysis checks the meaning and correctness of the code beyond its syntax. It ensures that variables are declared before use, types are compatible, and function calls are valid, among other semantic rules.
+   The semantic analysis phase also performs type inference and type checking to ensure consistency and compatibility between different parts of the code.
+   Intermediate Code Generation:
+   =============================
+
+   In this step, an intermediate representation of the code is generated. The intermediate code may be in the form of an abstract syntax tree (AST) or an intermediate language representation (IL).
+   The intermediate code represents the original code in a more structured and language-agnostic format, allowing for optimization and easier translation to the target machine code.
+   Code Optimization:
+   ==================
+
+   Code optimization is an optional but crucial step in the compilation process. It aims to improve the performance, efficiency, and size of the resulting executable code.
+   Optimization techniques can include removing redundant code, constant folding, loop unrolling, register allocation, and many more. These optimizations aim to reduce execution time, minimize memory usage, and improve overall program efficiency.
+   Code Generation:
+   ================
+
+   The final step of compilation is code generation, where the intermediate representation is translated into machine code specific to the target architecture.
+   The code generator produces assembly code or machine code instructions that can be executed directly by the computer's processor. It maps high-level language constructs to low-level processor instructions and memory operations.
+   The generated machine code is typically stored in an executable file or object file that can be executed independently.
+   It's important to note that the compilation process may vary depending on the programming language, compiler implementation, and optimization settings. Additionally, some languages, like Python, utilize a hybrid approach where code is compiled into an intermediate bytecode representation that is then executed by a virtual machine or interpreter.
+
+      Overall, the compilation process involves analyzing the source code, building a representation of its structure, performing semantic checks, generating optimized intermediate code, and finally translating it into machine code for execution on the target platform.
+
+8. Why Python is Dynamically typed programming Language. Explain
+=================================================================
+
+     Python is dynamically typed because it allows variables to hold values of different types during runtime, without requiring explicit type declarations. Here's an explanation of why Python is dynamically typed:
+
+      Type Inference:
+      ================
+
+       In Python, variable types are inferred based on the assigned values. When a variable is assigned a value, the interpreter automatically determines its type. For example:
+
+      if x=5 #here x is inferred to be an integer
+      y="hello" #here y is inferred to be a string
+
+      Flexible Type Assignment: 
+      ==========================
+      Python allows variables to be reassigned with values of different types. You can assign a different type to a variable at any point in the code.
+
+      No Explicit Type Declarations: 
+      ===============================
+       Python does not require explicit type declarations for variables. You don't need to specify the type of a variable when you declare it. The type is determined dynamically at runtime. 
+
+      Polymorphism: 
+      =============
+      Dynamic typing in Python allows for polymorphism, where a single variable can refer to objects of different types. This flexibility enables code reuse and simplifies the development process. For example, a single function can handle different types of inputs:
+
+      def add(a, b):
+    return a + b
+
+   result = add(5, 10)  # Integer addition
+   result = add("Hello", " World")  # String concatenation
+
+     Simplified Development:
+     =======================
+      Dynamic typing reduces the need for explicit type annotations, making the code shorter and more readable. It allows for quick prototyping and experimentation as developers can focus on solving problems rather than dealing with strict type declarations.
+
+9. Python is Platform independent.Explain
+==========================================
+
+    Python is often considered a platform-independent programming language, meaning that Python code can run on multiple platforms or operating systems without requiring major modifications. Here's an explanation of why Python is considered platform-independent:
+
+      Interpreted Language: 
+      =====================
+      Python is an interpreted language, which means that the code is executed by an interpreter rather than being compiled to machine code. The Python interpreter is available for various platforms, including Windows, macOS, Linux, and many others. As long as the Python interpreter is available for a specific platform, Python code can be executed on that platform without needing to recompile the code.
+
+      Write Once, Run Anywhere (WORA):
+      ================================
+       Python adheres to the "Write Once, Run Anywhere" principle, which emphasizes the ability to write code that can run on multiple platforms without significant changes. Python achieves this through its cross-platform compatibility and a consistent language specification. As a result, Python programs can be developed on one platform and easily executed on another, preserving their functionality.
+
+      Platform-Specific Modules:
+      ==========================
+       While the core Python language is platform-independent, some modules and libraries may have platform-specific implementations or dependencies. However, Python offers a vast standard library that provides platform-independent functionality for common tasks. Additionally, the extensive ecosystem of third-party libraries and frameworks allows developers to access platform-specific features if needed.
+
+      High-Level Abstractions: 
+      ========================
+      Python's high-level abstractions and built-in data structures abstract away many low-level details that are platform-dependent. This allows developers to focus on writing portable code that works consistently across different platforms. Python provides platform-independent ways to handle file I/O, networking, data manipulation, and other common operations.
+
+      Portability of Python Scripts:
+      ==============================
+       Python scripts, which are typically composed of text-based source code files with a .py extension, can be easily transported and executed on different platforms. As long as the Python interpreter is available, the scripts can be run without modifications. This portability is beneficial for sharing and distributing Python code across different environments.
+
+      However, it's important to note that while Python offers platform independence, certain aspects may still have platform-specific considerations. For example, graphical user interfaces (GUIs) may require different libraries or frameworks depending on the platform. In such cases, developers may need to utilize platform-specific modules or APIs to create platform-specific functionality.
+
+Overall, Python's platform independence, along with its rich standard library, extensive third-party ecosystem, and cross-platform compatibility, make it a versatile choice for developing applications that can be executed across various platforms without major modifications.
+
+10.Different ways to write python program.
+===========================================
+   Interactive, IDLE, CommandPrompt, IDE
+   =====================================
+   Advantages, Disadvantages
+   ==========================
+
+   There are multiple ways to write and execute Python programs, each with its own advantages and disadvantages. Let's discuss four common methods: Interactive mode, IDLE, Command Prompt, and Integrated Development Environments (IDEs):
+
+Interactive Mode:
+=================
+
+Interactive mode allows you to execute Python code line by line and immediately see the output or results. It provides a direct way to experiment with code and test small code snippets.
+Advantages:
+============
+Quick and immediate feedback on code execution.
+Useful for learning and exploring Python features.
+Convenient for debugging and testing small code snippets.
+Disadvantages:
+===============
+Limited to executing code interactively; not suitable for larger programs.
+No support for editing and saving code for later use.
+Lack of advanced features such as code navigation and debugging tools.
+IDLE (Integrated Development and Learning Environment):
+=======================================================
+
+IDLE is a basic Python development environment that comes bundled with the Python installation. It provides an interactive shell and a text editor for writing Python code.
+Advantages:
+============
+Offers a simple and lightweight development environment.
+Includes a code editor with basic features like syntax highlighting and indentation support.
+Provides a Python shell for immediate code execution and testing.
+Disadvantages:
+==============
+Limited features compared to more advanced IDEs.
+May not have advanced code editing and debugging capabilities.
+User interface can be less intuitive for beginners.
+Command Prompt/Terminal:
+========================
+
+Python programs can be written using any text editor and executed from the command prompt or terminal.
+Advantages:
+===========
+Flexibility to use any text editor or IDE of your choice for writing code.
+Command-line execution allows for automation and scripting.
+Suitable for both small and large projects.
+Disadvantages:
+==============
+No built-in features for code editing, debugging, or code completion.
+Manual compilation and execution process, which can be cumbersome for larger projects.
+Limited visual tools for development and debugging.
+Integrated Development Environments (IDEs):
+===========================================
+
+IDEs are specialized software applications designed for software development. They provide a comprehensive set of features for coding, debugging, testing, and managing projects.
+Advantages:
+===========
+Advanced code editing features like syntax highlighting, code completion, and refactoring tools.
+Integrated debugging capabilities to identify and fix errors in code.
+Project management tools for organizing files and dependencies.
+Disadvantages:
+==============
+Can be resource-intensive and slower compared to lightweight text editors.
+Steeper learning curve, especially for beginners.
+IDEs may have a higher memory footprint and may require more disk space.
+
+
+
+11.sourcecode vs bytecode
+==========================
+
+    Source Code:
+    =============
+      Source code refers to the human-readable form of a program written by a developer using a programming language. It consists of text-based instructions that convey the logic and behavior of the program. Source code files typically have file extensions corresponding to the programming language they are written in, such as .py for Python or .java for Java.
+
+      Key points about source code include:
+           *Human readable
+           *High level abstractions
+           *Editable and modifiable
+           *Platform independent
+
+    Bytecode:
+    =========
+      Bytecode, on the other hand, is a lower-level representation of the program that is typically generated by a compiler or an interpreter. It is an intermediate representation of the source code that is not directly executed by the hardware. Bytecode is specific to the platform or runtime environment and is generally not human-readable.
+
+      Key points about bytecode include:
+          *Intermediate representation
+          *Platform specific
+          *Compact and efficient
+          *Executed by interpreters or Virtual machines
+
+12.Register instruction set
+============================
+
+   A register instruction set refers to a type of instruction set architecture (ISA) that utilizes registers as the primary location for performing operations and storing intermediate values during program execution. In this context, registers are small, high-speed storage locations within a computer's central processing unit (CPU).
+
+   Register Operations: Instructions in a register instruction set architecture directly operate on registers. They perform operations such as arithmetic, logical, and data movement within registers.
+
+   Reduced Memory Access: Utilizing registers reduces the need for memory access during computation. Since registers are part of the CPU and are much faster to access than main memory, this can lead to improved performance.
+
+   Register Organization: A register instruction set architecture defines the number and types of registers available in the CPU. These registers may have specific purposes, such as general-purpose registers (used for general computations), special-purpose registers (used for specific tasks like program counters or flags), or floating-point registers (for floating-point operations).
+
+   Register Transfer Language (RTL): A register instruction set architecture often employs a register transfer language, which is a low-level description of the operations performed by the CPU. RTL describes the flow of data between registers and the operations applied to that data.
+
+   Efficient Code Execution: The use of registers allows for efficient code execution as it reduces the need for memory access and facilitates faster data manipulation. This can result in improved performance and reduced power consumption.
+
+13.High Level vs Low level programming Language
+================================================
+
+
+1. It is programmer friendly language.                  |       It is a machine friendly language.
+2. High level language is less memory efficient.        |       Low level language is high memory efficient.
+3. It is easy to understand.                            |       It is tough to understand.
+4. Debugging is easy.                                   |       Debugging is complex comparatively.
+5. It is simple to maintain.                            |       It is complex to maintain comparatively.
+6. It is portable.                                      |       It is non-portable.
+7. It can run on any platform.                          |       It is machine-dependent.
+8. It needs compiler or interpreter for translation.    |       It needs assembler for translation.
+9. It is used widely for programming.                   |       It is not commonly used now-a-days in programming.
+10. examples: Python, JavaScript, Visual Basic, Delphi, |       examples:  assembly and machine code              
+    Perl, PHP, ECMAScript, Ruby, C#, Java               |
+
+
+14.Python architecture
+=======================
+
+Python is an object-oriented programming language like Java. Python is called an interpreted language. Python uses code modules that are interchangeable instead of a single long list of instructions that was standard for functional programming languages. The standard implementation of python is called “cpython”. It is the default and widely used implementation of Python. 
+Python doesn’t convert its code into machine code, something that hardware can understand. It actually converts it into something called byte code. So within python, compilation happens, but it’s just not into a machine language. It is into byte code (.pyc or .pyo) and this byte code can’t be understood by the CPU. So we need an interpreter called the python virtual machine to execute the byte codes. 
+
+python code-->syntax checker and translator-->
+                           |
+                 Byte code | 
+
+      input------->  python virtual machine-->
+                            |
+                            |
+                         output     
+ 
+
+The Python source code goes through the following to generate an executable code : 
+ 
+
+Step 1: The python compiler reads a python source code or instruction. Then it verifies that the instruction is well-formatted, i.e. it checks the syntax of each line. If it encounters an error, it immediately halts the translation and shows an error message.
+Step 2: If there is no error, i.e. if the python instruction or source code is well-formatted then the compiler translates it into its equivalent form in an intermediate language called “Byte code”.
+Step 3: Byte code is then sent to the Python Virtual Machine(PVM) which is the python interpreter. PVM converts the python byte code into machine-executable code. If an error occurs during this interpretation then the conversion is halted with an error message.
+
+15.Explain Garbage Collection mechanism in detail.
+==================================================
+
+Garbage collection
+===================
+Garbage collection is a memory management technique used in programming languages to automatically reclaim memory that is no longer accessible or in use by the application. It helps prevent memory leaks, optimize memory usage, and ensure efficient memory allocation for the program.
+
+   Generational Garbage Collection
+   ================================
+   When attempting to add an object to a reference counter, a cyclical reference or reference cycle is produced. Because the object’s reference counter could never reach 0 (due to cycle), a reference counter cannot destroy the object. Therefore, in situations like this, we employ the universal waste collector. It operates and releases the memory used. A Generational Garbage Collector can be found in the standard library’s gc module.
+
+   Automatic Garbage Collection of Cycles
+   =======================================
+   
+   In garbage collection assignment takes from right to left.
+   if a=10
+   it is stored in the one memory address in the form of binary(8 bits)
+   Garbage collector works with referrence count.
+
+   example 1:
+   ==========
+   if a=10
+   b=10
+   here in example both of them having the same value hence it is stored in the same memory address so their referrence count is 2
+   when referrence count = 0 it will be deleted from the memory
+   the value 10 will be removed from the memory.
+   Automatic garbage collection frees the memory for the variable if the referrence count is 0
+
+   example 2:
+   ==========
+
+   if a=10
+   a=20
+   here first a=10 is stored in one memory location and again a=20 is overwritten in the same location since it has same variable with different values. here old value is override with the current value.
+
+
+
+Manual Garbage Collection
+==========================
+Invoking the garbage collector manually during the execution of a program can be a good idea for how to handle memory being consumed by reference cycles. 
+The garbage collection can be invoked manually in the following way: 
+
+          # Importing gc module
+         import gc
+
+         # Returns the number of
+         # objects it has collected
+         # and deallocated
+         collected = gc.collect()
+
+         # Prints Garbage collector
+         # as 0 object
+         print("Garbage collector: collected",
+               "%d objects." % collected)
+output: ('Garbage collector: collected', '0 objects.')
+
+There are two ways for performing manual garbage collection: time-based and event-based garbage collection. 
+
+Time-based garbage collection is simple: the garbage collector is called after a fixed time interval. 
+Event-based garbage collection calls the garbage collector on event occurrence. For example, when a user exits the application or when the application enters into an idle state. 
+
+Forced Garbage Collection
+==========================
+In Python, the garbage collector runs automatically and periodically to clean up objects that are no longer referenced and thus are eligible for garbage collection. However, in some cases, you may want to force garbage collection to occur immediately. You can do this using the gc. collect() function provided by the gc module.
+Example:
+========
+import gc
+
+# Create some objects
+obj1 = [1, 2, 3]
+obj2 = {"a": 1, "b": 2}
+obj3 = "Hello, world!"
+
+# Delete references to objects
+del obj1
+del obj2
+del obj3
+
+# Force a garbage collection
+gc.collect()
+
+
+Disabling Garbage Collection
+=============================
+In Python, the garbage collector is enabled by default and automatically runs periodically to clean up objects that are no longer referenced and thus are eligible for garbage collection. However, in some cases, you may want to disable the garbage collector to prevent it from running. You can do this using the gc.disable() function provided by the gc module.
+Example:
+========
+
+import gc
+
+# Disable the garbage collector
+gc.disable()
+
+# Create some objects
+obj1 = [1, 2, 3]
+obj2 = {"a": 1, "b": 2}
+obj3 = "Hello, world!"
+
+# Delete references to objects
+del obj1
+del obj2
+del obj3
+
+# The garbage collector is disabled, so it will not run
+
+Interacting with Python Garbage Collector
+==========================================
+A built-in mechanism called the Python garbage collector automatically eliminates objects that are no longer referenced in order to free up memory and stop memory leaks. The Python gc module offers a number of ways to interact with the garbage collector, which is often executed automatically.
+
+1. Enabling and disabling the garbage collector: You can enable or disable the garbage collector using the gc. enable() and gc. disable() functions, respectively. Example:
+Example:
+========
+import gc
+
+# Disable the garbage collector
+gc.disable()
+
+# Enable the garbage collector
+gc.enable()
+
+2. Forcing garbage collection: You can manually trigger a garbage collection using the gc. collect() function. This can be useful in cases where you want to force immediate garbage collection instead of waiting for automatic garbage collection to occur. 
+
+Example:
+========
+
+import gc
+
+# Trigger a garbage collection
+gc.collect()
+
+
+
+
